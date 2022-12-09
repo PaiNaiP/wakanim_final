@@ -1,0 +1,121 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.navigation-header {
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    background: #1E1E1F;
+  }
+.navigation-header ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+  }
+.navigation-header ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+.navigation-header ul li div {
+    text-decoration: none;
+    padding: 20px 27px;
+    display: block;
+    text-align: center;
+    color: white;
+    line-height: 29px;
+    font-weight: 500;
+    
+  }
+
+
+
+.genresCard{
+  display: flex;
+  margin-left: 20px;
+  width: 1000px;
+  flex-wrap:wrap
+}
+
+.card{
+  display: flex; 
+  margin: 10px;
+}
+
+.cont-buttons-card{
+  display: flex;
+  margin-top: 38px;
+  margin-left: 4.5px;
+}
+
+.changeBtn{
+  margin-right: 0;
+  margin-left: 95px;
+}
+
+.info-views{
+  display: flex;
+  margin: 0 auto;
+}
+
+.info-view{
+  margin: 0 auto;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.closeBtn:hover{
+  color: rgb(158, 14, 14);
+}
+
+.themeSignIn{
+  box-shadow: -13px 13px 26px rgba(21, 21, 22, 0.2), 13px -13px 26px rgba(21, 21, 22, 0.2), -13px -13px 26px rgba(23, 23, 24, 0.9), 
+  13px 13px 33px rgba(21, 21, 22, 0.9), inset 1px 1px 2px rgba(23, 23, 24, 0.3), inset -1px -1px 2px rgba(21, 21, 22, 0.5);
+}
+
+.inputSign{
+  box-shadow: 1px 1px 2px rgba(35, 35, 37, 0.3), -1px -1px 2px rgba(29, 29, 31, 0.5), inset -6px 6px 12px rgba(29, 29, 31, 0.2), inset 6px -6px 12px rgba(29, 29, 31, 0.2), inset -6px -6px 12px rgba(35, 35, 37, 0.9), inset 6px 6px 15px rgba(29, 29, 31, 0.9);
+}
+.inputAccount{
+  box-shadow: 1px 1px 2px rgba(46, 46, 50, 0.3), -1px -1px 2px rgba(38, 38, 41, 0.5), inset -5px 5px 10px rgba(38, 38, 41, 0.2), inset 5px -5px 10px rgba(38, 38, 41, 0.2), inset -5px -5px 10px rgba(46, 46, 50, 0.9), inset 5px 5px 13px rgba(38, 38, 41, 0.9);
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid rgb(35, 35, 37);
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background: rgb(35, 35, 37);
+  color: white;
+  border-radius: 5px;
+  margin-left: 0.9rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333336;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0c0c0c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #29292b;
+}
+
+.findBack:hover{
+  background-color: #252527;
+}
